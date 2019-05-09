@@ -8,7 +8,6 @@
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
-    <script src="../cdn-cgi/apps/head/3ts2ksMwXvKRuG480KNifJ2_JNM.js"></script>
     <!-- Stylesheets-->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900,300italic">
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css')?>">
@@ -47,9 +46,9 @@
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
                                 <li class="active"><a href="<?php echo base_url()?>">HOME</a></li>
-                                <li><a href="<?php echo base_url()?>">ABOUT US</a></li>
-                                <li><a href="<?php echo base_url()?>">SERVICES</a></li>
-                                <li><a href="<?php echo base_url()?>">CONTACTS</a></li>
+                                <li><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
+                                <li><a href="<?php echo base_url('service')?>">SERVICES</a></li>
+                                <li><a href="<?php echo base_url('contact')?>">CONTACTS</a></li>
                             </ul>
                         </div>
                         <div class="block-right">
@@ -78,7 +77,7 @@
                                     <div class="cell-xs-7 cell-md-preffix-1 cell-xl-preffix-0 pull-right">
                                         <h3>Today insights, secure Tomorrow opportunities</h3>
                                         <p class="big">Safari Analytika supporting businesses to make well informed decisions in a timely manner,<br class="veil reveal-sm-block">ensuring tomorrow opportunities are secured ahead of time. </p>
-                                        <div class="group-md offset-top-25"><a class="btn btn-sm btn-curious-blue-variant-1 min-width-160" href="<?php echo base_url()?>">About Us</a></div>
+                                        <div class="group-md offset-top-25"><a class="btn btn-sm btn-curious-blue-variant-1 min-width-160" href="<?php echo base_url('about')?>">About Us</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -195,80 +194,4 @@
             </div>
         </div>
     </section>
-
-    <!-- Page Footer-->
-    <footer class="page-foot">
-        <div class="section-45 section-sm-75 bg-river-bed novi-background bg-cover">
-            <div class="shell text-center text-sm-left">
-                <div class="range range-45 range-xs-center">
-                    <div class="cell-xs-12 cell-sm-6 cell-lg-4">
-                        <h4>About Us</h4>
-                        <hr class="hr-variant-1">
-                        <div class="footer-nav-column">
-                            <ul class="footer-nav">
-                                <li><a href="<?php echo base_url()?>">Home</a></li>
-                                <li><a href="<?php echo base_url()?>">About</a></li>
-                                <li><a href="<?php echo base_url()?>">Service</a></li>
-                                <li><a href="<?php echo base_url()?>">Corporate responsibility</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cell-xs-12 cell-sm-6 cell-lg-4">
-                        <h4>Legal</h4>
-                        <hr class="hr-variant-1">
-                        <div class="footer-nav-column">
-                            <ul class="footer-nav">
-                                <li><a href="<?php echo base_url()?>">Privacy policy</a></li>
-                                <li><a href="<?php echo base_url()?>">Email Disclaimer</a></li>
-                                <li><a href="<?php echo base_url()?>">Terms and Conditions</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="cell-xs-12 cell-sm-6 cell-lg-4">
-                        <h4>Contact info</h4>
-                        <hr class="hr-variant-1">
-                        <address class="contact-info reveal-inline-block">
-                            <ul class="contact-info-list">
-                                <li class="unit unit-horizontal unit-spacing-md">
-                                    <div class="unit-left"><span class="icon icon-sm icon-picton-blue fa-phone novi-icon"></span></div>
-                                    <div class="unit-body"><span class="text-bold"><a href="tel:#">+255 22 2110535</a></span></div>
-                                </li>
-                                <li class="unit unit-horizontal unit-spacing-md">
-                                    <div class="unit-left"><span class="icon icon-sm icon-picton-blue fa-envelope-o novi-icon"></span></div>
-                                    <div class="unit-body"><span>info@safarianalytika.co.tz</span></div>
-                                </li>
-                                <li class="unit unit-horizontal unit-spacing-md">
-                                    <div class="unit-left"><span class="icon icon-sm icon-picton-blue fa-clock-o novi-icon"></span></div>
-                                    <div class="unit-body"><span>Mon - Fri: 8:30 - 16:30</span></div>
-                                </li>
-                                <li class="unit unit-horizontal unit-spacing-md">
-                                    <div class="unit-left"><span class="icon icon-sm icon-picton-blue fa-map-marker novi-icon"></span></div>
-                                    <div class="unit-body">
-                                        <span>
-                                            <a href="#">
-                                                <span class="text-bold">Block No. 106, 1st Floor Tancot House,</span>
-                                                <span>Sokoine Drive</span>
-                                            </a>
-                                        </span>
-                                    </div>
-                                </li>
-                            </ul>
-                        </address>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="section-14 bg-ebony-clay novi-background bg-cover">
-            <div class="shell text-center">
-                <p class="rights">&#169;&nbsp;<span class="copyright-year"></span>&nbsp;Safari Analytika.</p>
-            </div>
-        </div>
-    </footer>
-</div>
-
-<!-- Javascript-->
-<script src="<?php echo base_url('assets/js/core.min.js')?>"></script>
-<script src="<?php echo base_url('assets/js/script.js')?>"></script>
-
-</body>
-</html>
+<?php $this->load->view('shared/footer')?>

@@ -22,4 +22,16 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('home_view');
 	}
+
+	public function privacy(){
+        $this->load->view('privacy_view');
+    }
+
+    public function email(){
+        $this->load->view('email_view');
+    }
+
+    public function terms(){
+        $this->load->view('terms_view');
+    }
 }
