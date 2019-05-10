@@ -40,10 +40,6 @@
                                 <div class="unit-body"><span>info@safarianalytika.co.tz</span></div>
                             </li>
                             <li class="unit unit-horizontal unit-spacing-md">
-                                <div class="unit-left"><span class="icon icon-sm icon-picton-blue fa-clock-o novi-icon"></span></div>
-                                <div class="unit-body"><span>Mon - Fri: 8:30 - 16:30</span></div>
-                            </li>
-                            <li class="unit unit-horizontal unit-spacing-md">
                                 <div class="unit-left"><span class="icon icon-sm icon-picton-blue fa-map-marker novi-icon"></span></div>
                                 <div class="unit-body">
                                         <span>

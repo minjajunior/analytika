@@ -102,8 +102,8 @@
                         <div class="icon-decoration-border">
                             <div class="icon-decoration-border-inner"><span class="icon icon-md-variant-2 icon-primary fl-bigmug-line-checkmark16 novi-icon"></span></div>
                         </div>
-                        <h4><a href="#">Data analytics</a></h4>
-                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url()?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
+                        <h4><a href="<?php echo base_url('service/analytics')?>">Data analytics</a></h4>
+                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/analytics')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                     </div>
                 </div>
                 <div class="cell-xs-12 cell-sm-5 cell-lg-3">
@@ -111,8 +111,8 @@
                         <div class="icon-decoration-border">
                             <div class="icon-decoration-border-inner"><span class="icon icon-md-variant-2 icon-primary fl-bigmug-line-sand14 novi-icon"></span></div>
                         </div>
-                        <h4><a href="#">IFRS 9 modelling </a></h4>
-                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url()?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
+                        <h4><a href="<?php echo base_url('service/ifrs')?>">IFRS 9 modelling </a></h4>
+                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/ifrs')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                     </div>
                 </div>
                 <div class="cell-xs-12 cell-sm-5 cell-lg-3">
@@ -122,8 +122,8 @@
                                 <div class="icon icon-image"><span class="icon icon-md-variant-2 icon-primary fl-bigmug-line-three142 novi-icon"></span></div>
                             </div>
                         </div>
-                        <h4><a href="#">CRD Data Submission</a></h4>
-                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url()?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
+                        <h4><a href="<?php echo base_url('service/crd')?>">CRD Data Submission</a></h4>
+                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/crd')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                     </div>
                 </div>
                 <div class="cell-xs-12 cell-sm-5 cell-lg-3">
@@ -133,8 +133,8 @@
                                 <div class="icon icon-image"><span class="icon icon-md-variant-2 icon-primary fl-bigmug-line-portfolio23 novi-icon"></span></div>
                             </div>
                         </div>
-                        <h4><a href="#">Financial Advice</a></h4>
-                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url()?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
+                        <h4><a href="<?php echo base_url('service/financial')?>">Financial Advice</a></h4>
+                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/financial')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                     </div>
                 </div>
             </div>
@@ -151,7 +151,7 @@
                             <h4 class="text-bold"><a href="#">Safari Analytika Training</a></h4>
                             <hr class="hr-block hr-left hr-curious-blue"/>
                             <p>Safari Analytika provides training and development courses, both generic and customized, related to IFRS 9, credit bureaus data submission and credit lifecycle management. </p>
-                            <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url()?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
+                            <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/training')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                         </div>
                     </div>
                 </div>
@@ -186,7 +186,7 @@
                                 <li><a href="#">Denied Credit</a></li>
                                 <li><a href="#">Opt out of Pre-screened Offers</a></li>
                             </ul>
-                            <a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url()?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a>
+                            <a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a>
                             </p>
                         </div>
                     </div>
