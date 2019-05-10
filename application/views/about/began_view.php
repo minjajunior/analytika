@@ -44,8 +44,8 @@
                         <div class="rd-navbar-nav-wrap">
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
-                                <li class="active"><a href="<?php echo base_url()?>">HOME</a></li>
-                                <li><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
+                                <li><a href="<?php echo base_url()?>">HOME</a></li>
+                                <li class="active"><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
                                 <li><a href="<?php echo base_url('service')?>">SERVICES</a></li>
                                 <li><a href="<?php echo base_url('contact')?>">CONTACTS</a></li>
                             </ul>

@@ -2,7 +2,7 @@
 <html class="wide wow-animation" lang="en">
 <head>
     <!-- Site Title-->
-    <title>About Us</title>
+    <title>Our Services</title>
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -45,8 +45,8 @@
                             <!-- RD Navbar Nav-->
                             <ul class="rd-navbar-nav">
                                 <li><a href="<?php echo base_url()?>">HOME</a></li>
-                                <li class="active"><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
-                                <li><a href="<?php echo base_url('service')?>">SERVICES</a></li>
+                                <li><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
+                                <li class="active"><a href="<?php echo base_url('service')?>">SERVICES</a></li>
                                 <li><a href="<?php echo base_url('contact')?>">CONTACTS</a></li>
                             </ul>
                         </div>
@@ -68,7 +68,7 @@
             <div class="shell text-center">
                 <div class="range range-fix">
                     <div class="cell-xs-12">
-                        <h2>About Us</h2>
+                        <h2>Our Services</h2>
                         <hr class="hr-block hr-white"/>
                     </div>
                 </div>
@@ -81,7 +81,7 @@
                 <div class="cell-xs-12">
                     <ul class="breadcrumbs-custom">
                         <li><a href="<?php echo base_url()?>">Home</a></li>
-                        <li class="active">About Us</li>
+                        <li class="active">Our Services</li>
                     </ul>
                 </div>
             </div>
@@ -97,11 +97,12 @@
                             <div class="cell-xs-12 cell-sm-6 cell-md-12 widget-item">
                                 <nav class="page-nav">
                                     <ul class="page-nav-list">
-                                        <li><a href="<?php echo base_url('about')?>">About Us</a></li>
-                                        <li><a href="<?php echo base_url('about/began')?>">How Safari Analytika began</a></li>
-                                        <li class="active"><a href="<?php echo base_url('about/vision')?>">Our Vision</a></li>
-                                        <li><a href="<?php echo base_url('about/mission')?>">Our Mission</a></li>
-                                        <li><a href="<?php echo base_url('about/social')?>">Social Responsibility</a></li>
+                                        <li><a href="<?php echo base_url('service')?>">Credit Report Assistance</a></li>
+                                        <li><a href="<?php echo base_url('service/ifrs')?>">IFRS 9 Modelling for Financial Instruments for Expected Credit Losses </a></li>
+                                        <li><a href="<?php echo base_url('service/analytics')?>">Data Analytics</a></li>
+                                        <li><a href="<?php echo base_url('service/crd')?>">Credit Reference Databank (CRD) Data Submission</a></li>
+                                        <li><a href="<?php echo base_url('service/financial')?>">Financial Advice</a></li>
+                                        <li class="active"><a href="<?php echo base_url('service/training')?>">Safari Analytika Training</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -112,10 +113,12 @@
                     <div class="section-inner section-25 section-md-30">
                         <article class="post-info">
                             <div class="post-info-body offset-top-30 offset-md-top-45">
-                                <h3>Our Vision</h3>
-                                <p>Today insights, secure Tomorrow opportunities.</p>
-                                <p>We envision a world where today decisions are grounded in trusted data and assisted by the power of data analytics.
-                                    When well informed decisions are made timely, innovations are set in motion and tomorrow opportunities are well secured ahead of time. </p>
+                                <h3>Safari Analytika Training</h3>
+                                <p>
+                                    Safari Analytika provides training and development courses, both generic and customized, related to IFRS 9,
+                                    credit bureaus data submission and credit lifecycle management. The focus is to provide training for clients
+                                    in need of skills development interventions to improve operational efficiency and overall business performance.
+                                </p>
 
                             </div>
                         </article>
