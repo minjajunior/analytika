@@ -28,22 +28,39 @@
     </div>
     <!-- Page Header-->
     <header class="page-head">
-        <!-- RD Navbar-->
-        <div class="rd-navbar-wrap">
+
+       <!-- RD Navbar-->
+       <div class="rd-navbar-wrap">
+
+
+
+
+
+
+
+
+
+
             <nav class="rd-navbar rd-navbar-light" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-static" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-lg-stick-up-clone="true" data-md-stick-up-offset="80px" data-lg-stick-up-offset="80px" data-stick-up="true" data-sm-stick-up="true" data-md-stick-up="true" data-lg-stick-up="true">
+
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="row">
+
                 <div class="rd-navbar-inner">
                     <div class="rd-navbar-inner-body">
-                        <!-- RD Navbar Panel-->
-                        <div class="rd-navbar-panel">
-                            <!-- RD Navbar Toggle-->
+
+                        <div class="rd-navbar-panel col-8 col-sm-6 col-md-4 col-lg-3 col-xl-2 ">
+
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-                            <!-- RD Navbar Brand-->
+
                             <a href="<?php echo base_url()?>">
                                 <img src="<?php echo base_url('assets/images/logo.png')?>" alt="" />
                             </a>
                         </div>
-                        <div class="rd-navbar-nav-wrap">
-                            <!-- RD Navbar Nav-->
+                        <div class="rd-navbar-nav-wrap hidden-sm-down col-md-6 col-lg-9 col-xl-10 ">
+
                             <ul class="rd-navbar-nav">
                                 <li class="active"><a href="<?php echo base_url()?>">HOME</a></li>
                                 <li><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
@@ -60,7 +77,14 @@
                         </div>
                     </div>
                 </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
             </nav>
+
         </div>
     </header>
 
@@ -77,7 +101,7 @@
                                     <div class="cell-xs-7 cell-md-preffix-1 cell-xl-preffix-0 pull-right">
                                         <h3>Today insights, secure Tomorrow opportunities</h3>
                                         <p class="big">Safari Analytika supporting businesses to make well informed decisions in a timely manner,<br class="veil reveal-sm-block">ensuring tomorrow opportunities are secured ahead of time. </p>
-                                        <div class="group-md offset-top-25"><a class="btn btn-sm btn-curious-blue-variant-1 min-width-160" href="<?php echo base_url('about')?>">About Us</a></div>
+                                        <div class="group-md offset-top-25"><a class="btn btn-sm btn-curious-blue-variant-1 min-width-160" href="<?php echo base_url('about')?>">ABOUT US</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -92,7 +116,7 @@
         <div class="shell">
             <div class="range range-fix text-center">
                 <div class="cell-xs-12">
-                    <h2>Our Services</h2>
+                    <h2>Services</h2>
                     <hr class="hr-block hr-curious-blue">
                 </div>
             </div>
@@ -102,7 +126,7 @@
                         <div class="icon-decoration-border">
                             <div class="icon-decoration-border-inner"><span class="icon icon-md-variant-2 icon-primary fl-bigmug-line-checkmark16 novi-icon"></span></div>
                         </div>
-                        <h4><a href="<?php echo base_url('service/analytics')?>">Data analytics</a></h4>
+                        <h4><a href="<?php echo base_url('service/analytics')?>">Data Analytics</a></h4>
                         <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/analytics')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                     </div>
                 </div>
@@ -142,43 +166,41 @@
     </section>
 
 
+
+
+
+
     <section class="section section-35 section-sm-68 novi-background">
-        <div class="shell">
-            <div class="range range-50 offset-top-25 offset-sm-top-56">
+
+            <div class="range ">
                 <div class="cell-xs-12 cell-sm-6">
                     <div class="service">
                         <div class="service-body">
                             <h4 class="text-bold"><a href="#">Safari Analytika Training</a></h4>
-                            <hr class="hr-block hr-left hr-curious-blue"/>
+                            <hr class="hr-block hr-left hr-curious-red"/>
                             <p>Safari Analytika provides training and development courses, both generic and customized, related to IFRS 9, credit bureaus data submission and credit lifecycle management. </p>
                             <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/training')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="cell-xs-12 cell-sm-6">
-                    <div class="service">
-                        <div class="service-image">
-                            <figure><img src="<?php echo base_url('assets/images/bg.jpg')?>" alt="" /></figure>
-                        </div>
-                    </div>
+                            <img src="<?php echo base_url('assets/images/bg.jpg')?>" alt="" />
                 </div>
             </div>
-        </div>
 
-        <div class="shell">
-            <div class="range range-50 offset-top-25 offset-sm-top-56">
+
+
+            <div class="range  ">
                 <div class="cell-xs-12 cell-sm-6">
-                    <div class="service">
-                        <div class="service-image">
-                            <figure><img src="<?php echo base_url('assets/images/top.jpg')?>" alt="" /></figure>
-                        </div>
-                    </div>
+
+                            <img src="<?php echo base_url('assets/images/top.jpg')?>" alt="" />
+
                 </div>
                 <div class="cell-xs-12 cell-sm-6">
                     <div class="service">
                         <div class="service-body">
                             <h4 class="text-bold"><a href="#">Credit Report Assistance</a></h4>
-                            <hr class="hr-block hr-left hr-curious-blue"/>
+                            <hr class="hr-block hr-left hr-curious-red"/>
                             <p>
                             <ul>
                                 <li><a href="#">Get your free Annual Credit Report</a></li>
@@ -192,6 +214,25 @@
                     </div>
                 </div>
             </div>
+
+        <div class="range ">
+            <div class="cell-xs-12 cell-sm-6">
+                <div class="service">
+                    <div class="service-body">
+                        <h4 class="text-bold"><a href="#">Safari Analytika Training</a></h4>
+                        <hr class="hr-block hr-left hr-curious-red"/>
+                        <p>Safari Analytika provides training and development courses, both generic and customized, related to IFRS 9, credit bureaus data submission and credit lifecycle management. </p>
+                        <p><a class="link link-black link-medium link-icon link-icon-right" href="<?php echo base_url('service/training')?>"><span class="icon icon-xs icon-curious-blue fa-angle-right"></span>Read more</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="cell-xs-12 cell-sm-6">
+                <img src="<?php echo base_url('assets/images/bg.jpg')?>" alt="" />
+            </div>
         </div>
+
     </section>
+
+
+
 <?php $this->load->view('shared/footer')?>
