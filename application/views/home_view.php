@@ -56,7 +56,7 @@
                             <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
 
                             <a href="<?php echo base_url()?>">
-                                <img src="<?php echo base_url('assets/images/logo.png')?>" alt="" />
+                                <img class="" src="<?php echo base_url('assets/images/logo.png')?>" alt="" />
                             </a>
                         </div>
                         <div class="rd-navbar-nav-wrap hidden-sm-down col-md-6 col-lg-9 col-xl-10 ">
@@ -66,6 +66,7 @@
                                 <li><a href="<?php echo base_url('about')?>">ABOUT US</a></li>
                                 <li><a href="<?php echo base_url('service')?>">SERVICES</a></li>
                                 <li><a href="<?php echo base_url('contact')?>">CONTACTS</a></li>
+
                             </ul>
                         </div>
                         <div class="block-right">
