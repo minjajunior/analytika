@@ -89,9 +89,9 @@
     </section>
     <!-- About us-->
     <section class="section-top-55 section-bottom-85 novi-background bg-cover">
-        <div class="shell">
+        <div class="">
             <div class="range range-fix">
-                <div class="cell-xs-12 cell-md-4 cell-lg-3 offset-top-60 offset-md-top-0">
+                <div class="post-aside cell-xs-12 cell-md-4 cell-lg-3 offset-top-60 offset-md-top-0">
                     <div class="inset-md-left-15 inset-md-right-15">
                         <div class="range range-40 range-fix widget-list">
                             <div class="cell-xs-12 cell-sm-6 cell-md-12 widget-item">
