@@ -104,3 +104,4 @@ if(plugins.lightGalleryItem.length){var notCarouselItems=[];for(var z=0;z<plugin
 plugins.lightGalleryItem=notCarouselItems;for(var i=0;i<plugins.lightGalleryItem.length;i++){initLightGalleryItem(plugins.lightGalleryItem[i]);}}
 if(plugins.lightDynamicGalleryItem.length){for(var i=0;i<plugins.lightDynamicGalleryItem.length;i++){initDynamicLightGallery(plugins.lightDynamicGalleryItem[i]);}}
 if(plugins.maps.length){lazyInit(plugins.maps,initMaps);}});
+
