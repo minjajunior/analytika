@@ -12,6 +12,11 @@
 }
 
 
+body .p{
+
+    text-align: justify !important;
+}
+
 
 .user-title {font-size:16px;font-weight:500; text-transform:uppercase; color:#000}
 
