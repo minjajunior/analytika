@@ -1,7 +1,7 @@
 <?php $this->load->view('shared/header')?>
 
     <!-- Page Content-->
-    <section class="parallax-container bg-river-bed" data-parallax-img="<?php echo base_url('assets/images/about-bg.jpg')?>">
+    <section class="parallax-container bg-river-bed" data-parallax-img="<?php echo base_url('assets/images/top.jpg')?>">
         <div class="parallax-content section-45 section-sm-top-60 section-sm-bottom-68">
             <div class="shell text-center">
                 <div class="range range-fix">
